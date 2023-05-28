@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/js" href="shopping cart.js">
+
+<head>
+ 
+  <body>
+
+    <div class="topnav">
+      <a class="active" href="#home">Home</a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+    </div>
+    
+  </div>
+  <style>
+    body {
+      background-color: rgb(37, 201, 210);
+    }
+    </style>
+  <title>Shopping Cart 1</title>
+  <link rel="stylesheet" type="text/css" href="shopping cart.css">
+  <link rel="stylesheet" type="text/js" href="shopping cart.js">
+</head>
+<body>
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <title>Shopping Cart </title>
+      <!-- Add Font Awesome CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    </head>
+    <body>
+      <h1>Shopping Cart  1 </h1>
+      <div id="cart">
+        <table>
+          <tr>
+            <th>Item</th>
+            <th>Quantity</th>
+            <th>Actions</th>
+            <th>Price</th>
+          </tr>
+          <tr>
+            <tr>
+                  <td>
+                    
+                    <img src="macbook.jpg" width="200" height="100">
+                    
+                  </td>
+            
+            <td><input type="number" min="0" value="0" class="quantity"></td>
+            <td>
+              <button class="increase">+</button>
+              <button class="decrease">-</button>
+              <button class="remove">Remove</button>
+              <button class="like"><i class="fas fa-heart"></i></button>
+              <button class="addToCart">Add to Cart</button>
+            </td>
+            <td class="price">$2417</td>
+          </tr>
+      
+
+  <div id="cart">
+    <table>
+      <tr>
+        <th>Item</th>
+        <th>Quantity</th>
+        <th>Actions</th>
+        <th>Price</th>
+      </tr>
+      <tr>
+        <tr>
+            <td>
+              <img src="pc gamer.jpg" width="200" height="100">
+              
+            </td>
+      
+        <td><input type="number" min="0" value="0" class="quantity"></td>
+        <td>
+          <button class="increase">+</button>
+          <button class="decrease">-</button>
+          <button class="remove">Remove</button>
+          <button class="like"><i class="fas fa-heart"></i></button>
+          <button class="addToCart">Add to Cart</button>
+        </td>
+        <td class="price">$699</td>
+      </tr>
+      <tr>
+      
+        <tr>
+          <tr>
+              <td>
+                <img src="iphone.jpg" width="200" height="100">
+                
+              </td>
+        
+        <td><input type="number" min="0" value="0" class="quantity"></td>
+        <td>
+          <button class="increase">+</button>
+          <button class="decrease">-</button>
+          <button class="remove">Remove</button>
+          <button class="like"><i class="fas fa-heart"></i></button>
+          <button class="addToCart">Add to Cart</button>
+        </td>
+        <td class="price">$899</td>
+      </tr>
+    </table>
+    
+    <div id="total">
+      <strong>Total Price: </strong><span id="total-price">$0.00</span>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
+  <h1>Divers Produits</h1>
+  
+      <div id="cart">
+        <table>
+          <tr>
+            <th>Item</th>
+            <th>Quantity</th>
+            <th>Actions</th>
+            <th>Price</th>
+          </tr>
+          <tr>
+            <tr>
+                <td>
+                  <img src="market.jpg" width="200" height="100">
+                  
+                </td>
+                
+          
+            <td><input type="number" min="0" value="0" class="quantity"></td>
+            <td>
+              <button class="increase">+</button>
+              <button class="decrease">-</button>
+              <button class="remove">Remove</button>
+              <button class="like"><i class="fas fa-heart"></i></button>
+              <button class="addToCart">Add to Cart</button>
+              <button type="button" class="cta cta--block svelte-jwirzf" loading="false"> Ajouter au panier </button>
+              
+            </td>
+            <td class="price">$1045.00</td>
+          </tr>
+          
+            <tr>
+              <tr>
+                  <td>
+                    <img src="detergent.jpg" width="200" height="100">
+                    
+                  </td>
+            
+            <td><input type="number" min="0" value="0" class="quantity"></td>
+            <td>
+              <button class="increase">+</button>
+              <button class="decrease">-</button>
+              <button class="remove">Remove</button>
+              <button class="like"><i class="fas fa-heart"></i></button>
+              <button class="addToCart">Add to Cart</button>
+            </td>
+            <td class="price">$64.24</td>
+          </tr>
+        </table>
+        
+        <div id="total">
+          <strong>Total Price: </strong><span id="total-price">$0.00</span>
+        </div>
+      </div>
+      
+      <script src="script.js"></script>
+    </body>
+    </html>
+</body>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  body {font-family: Arial, Helvetica, sans-serif;}
+  * {box-sizing: border-box;}
+  
+  
+  </style> 
+  <button class="open-button" onclick="openForm()">Chat</button>
+  
+  <div class="chat-popup" id="myForm">
+    <form action="/action_page.php" class="form-container">
+      <h1>Chat</h1>
+  
+      <label for="msg"><b>Message</b></label>
+      <textarea placeholder="Type message.." name="msg" required></textarea>
+  
+      <button type="submit" class="btn">Send</button>
+      <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+    </form>
+  </div>
+  
+  <script>
+  function openForm() {
+    document.getElementById("myForm").style.display = "block";
+  }
+  
+  function closeForm() {
+    document.getElementById("myForm").style.display = "none";
+  }
+  </script>
+ 
+ <style>
+
+  </style>
+  </head>
+  <body>
+  
+  
+              <h3>Payment</h3>
+              <label for="fname">Accepted Cards</label>
+              <div class="icon-container">
+                <i class="fa fa-cc-visa" style="color:navy;"></i>
+                <i class="fa fa-cc-amex" style="color:blue;"></i>
+                <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                <i class="fa fa-cc-discover" style="color:orange;"></i>
+              </div>
+              <br>
+              <label for="cname">Name on Card</label>
+              <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+              <br>
+              <label for="ccnum">Credit card number</label>
+              <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444"><br>
+              <label for="expmonth">Exp Month</label>
+              <input type="text" id="expmonth" name="expmonth" placeholder="September">
+              <div class="row">
+                <div class="col-50">
+                <br>
+                  <label for="expyear">Exp Year</label>
+                  <input type="text" id="expyear" name="expyear" placeholder="2018">
+                </div>
+              </div>
+          <input type="submit" value="Continue to checkout" class="btn">
+        </form>
+      </div>
+    </div>
+  
+    </div>
+  </div> 
+
+
+
+ 
+</head>
+
+</body>
+</html>
